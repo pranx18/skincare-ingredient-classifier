@@ -76,7 +76,7 @@ if st.button("Analyze"):
                 flagged.append(("Comedogenic", item))
 
         if flagged:
-            st.warning(⚠️ Flagged ingredients found:")
+            st.warning( Flagged ingredients found:")
             for cat, ing_name in flagged:
                 st.write(f"- **{ing_name}** — {cat}")
         else:
@@ -108,3 +108,4 @@ if os.path.exists(CM_PATH):
 
 st.markdown("---")
 st.caption("**Disclaimer:** Educational demo — not medical advice. Always patch-test and consult a dermatologist for personal concerns.")
+
