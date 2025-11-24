@@ -1,8 +1,8 @@
-Indian Skincare Ingredient Classifier — Demo
+🌿 Indian Skincare Ingredient Classifier — Demo
 
 A Machine Learning–powered tool to analyze skincare ingredient lists and predict safety categories.
 
-This project uses Natural Language Processing (NLP) and Machine Learning to classify skincare ingredient lists into:
+This project uses Natural Language Processing (NLP) + Machine Learning to classify ingredient lists into:
 
 Safe for Sensitive Skin
 
@@ -10,15 +10,26 @@ Contains Mild Irritants
 
 Comedogenic Risk
 
-It is designed as an educational demo to help users understand ingredient profiles and potential sensitivities based on simple text analysis.
+Designed as an educational demo to help users understand ingredient profiles and potential sensitivities based on simple text analysis.
+
+🌐 Live Demo
+
+Try the deployed app here:
+
+👉 https://skincare-ingredient-classifier-yrpfsm8mrcnnpscg4vdx9s.streamlit.app
 
 ✨ Features
 
 ✅ Classifies ingredient lists using a trained ML pipeline
-✅ Shows confidence scores for each category
+
+✅ Displays confidence scores for each category
+
 ✅ Flags common irritants & comedogenic ingredients
-✅ Displays top contributing tokens (explainability)
-✅ Beautiful Streamlit UI
+
+✅ Shows top contributing tokens (explainability)
+
+✅ Clean, simple Streamlit UI
+
 ✅ Deployed using Streamlit Cloud
 
 🔍 How It Works
@@ -33,17 +44,39 @@ Label Encoding
 
 Custom cleaning pipeline
 
-Input ingredient lists are cleaned using standard INCI formatting rules and then passed through the ML pipeline for prediction.
+Ingredient lists are cleaned using standard INCI formatting rules and passed through the ML pipeline for prediction.
 
-Flagged ingredient categories include:
+Flagged ingredient categories:
 
-Irritants: fragrance compounds, sulfates, alcohols, etc.
+Irritants:
 
-Comedogenic Ingredients: coconut oil, lanolin, isopropyl myristate, etc.
+fragrance compounds
+
+sulfates
+
+alcohols
+
+limonene, linalool
+
+etc.
+
+Comedogenic ingredients:
+
+coconut oil
+
+lanolin
+
+isopropyl myristate
+
+mineral oil
+
+shea butter
+
+etc.
 
 🧠 Model Training
 
-The model was trained on a small curated dataset labeled into three categories:
+The model was trained on a curated dataset labeled into three categories:
 
 Comedogenic Risk
 
@@ -51,4 +84,4 @@ Contains Mild Irritants
 
 Safe for Sensitive Skin
 
-It uses TF-IDF features + linear classifier.
+It uses TF-IDF features + a Linear classifier.
