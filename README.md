@@ -16,8 +16,7 @@ Designed as an educational demo to help users understand ingredient profiles and
 
 Try the deployed app here:
 
-👉 https://skincare-ingredient-classifier-yrpfsm8mrcnnpscg4vdx9s.streamlit.app
-
+👉 https://skincare-ingredient-classifier-hxzmnf47xmldnictgcfrxv.streamlit.app/
 ✨ Features
 
 ✅ Classifies ingredient lists using a trained ML pipeline
